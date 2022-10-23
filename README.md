@@ -1,18 +1,14 @@
 # Telco-Churn-Prediction
 Telco Customer Churn Prediction
 
+* Telco müşteri churn verileri, üçüncü çeyrekte Kaliforniya'daki 7043 müşteriye ev telefonu ve İnternet hizmetleri sağlayan
+ hayali bir telekom şirketi hakkında bilgi içerir. Hangi müşterilerin hizmetlerinden ayrıldığını, kaldığını veya hizmete kaydolduğunu içermektedir.
 
-# Problem : Şirketi terk edecek müşterileri tahmin edebilecek bir makine öğrenmesi modeli geliştirilmesi istenmektedir.
-# Modeli geliştirmeden önce gerekli olan veri analizi ve özellik mühendisliği adımlarını gerçekleştirmeniz beklenmektedir.
+* 21 Değişken 7043 Gözlem
 
-# Telco müşteri churn verileri, üçüncü çeyrekte Kaliforniya'daki 7043 müşteriye ev telefonu ve İnternet hizmetleri sağlayan
-# hayali bir telekom şirketi hakkında bilgi içerir. Hangi müşterilerin hizmetlerinden ayrıldığını, kaldığını veya hizmete kaydolduğunu içermektedir.
-
-# 21 Değişken 7043 Gözlem
-
-# CustomerId : Müşteri İd’si
-# Gender : Cinsiyet
-# SeniorCitizen : Müşterinin yaşlı olup olmadığı (1, 0)
+* CustomerId : Müşteri İd’si
+* Gender : Cinsiyet
+* SeniorCitizen : Müşterinin yaşlı olup olmadığı (1, 0)
 # Partner : Müşterinin bir ortağı olup olmadığı (Evet, Hayır) ? Evli olup olmama
 # Dependents : Müşterinin bakmakla yükümlü olduğu kişiler olup olmadığı (Evet, Hayır) (Çocuk, anne, baba, büyükanne)
 # tenure : Müşterinin şirkette kaldığı ay sayısı
